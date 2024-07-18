@@ -32,6 +32,25 @@ LettuceMeet is a trusted websites used by countless universities, jobs, and othe
 |--------------|---------|
 | Go           |  <=1.22 |
 
+```
+git clone https://github.com/CharlesTheGreat77/LettuceMeetC2
+cd LettuceMeetC2
+git mod init LettuceMeet
+go mod tidy
+```
+
+## Compile
+Compiling your payload
+```
+go build -o lettucemeet.exe main.go
+```
+
+## Building Client
+```
+go build lettuceClient.go
+./lettuceClient -h
+```
+
 # Setup ⚙️
 Create a lettucemeet "meeting" for scheduling: 
 1. Go to <a href="https://lettucemeet.com">LettuceMeet.com</a>
