@@ -20,6 +20,10 @@ LettuceMeet is a trusted websites used by countless universities, jobs, and othe
 **Everything else is ran in powershell!**
 
 ## Send Commands
+[Send-Commands](https://github.com/user-attachments/assets/f24c069b-6ff6-4bbf-8f23-ce58ef428579)
+
+
+
 
 
 
