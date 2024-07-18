@@ -5,6 +5,8 @@
 </div>
 This is a PoC of a simple "C2-less" RAT using <a href="https://lettucemeet.com">LettuceMeet</a>, LettuceMeet is a web-based tool that allows an easy and efficient way to schedule meetings; with a nice UI and calendar for scheduling, folks can input their name or email, and times of availability with the corresponding day. LettuceMeet C2 takes advantage of this ease of scheduling, extracts the name value for the most recent "availability", and executes the command. The output is then encoded in base64, and sent back to lettucemeet.com by create an availability with the name as the base64 encoded chunk(s) (char limit is 255). If the output is too large (4000+ chars), the output will be uploaded to Dropbox as a text file.
 
+This is a "beta" version of the project, so I don't advice using such for Red Team Assessments unless comfortable with the logic and communication of the project. (With the disclaimer in mind)
+
 # Why LettuceMeet?
 LettuceMeet is a trusted websites used by countless universities, jobs, and other production/business environments. This allows traffic between the attacker and victim machine to be less suspiscious than to connect back to a standard C2 or other suspicious endpoints for command & control or exfiltration.
 
@@ -72,3 +74,6 @@ Usage of ./lettuceClient:
 # Limitations
 Due to the 255 char limit in the name value when inputting a "schedule", output will be saved to a *txt* file and sent to Dropbox. Additionally, one can **not** upload files to lettucemeet, so downloading files from the victim machine will be uploaded to dropbox as well.
 * Note: I was going to encode a given file and chunk it to send as a lettucemeet schedule, but depending on the size of the file.. that would be over 100+ requests to lettucemeets backend... yea.. no.. so again, files will be uploaded to Dropbox.
+
+## Disclaimer
+This program should only be used on environments that you own or have explicit permission to do so. Neither the author, nor other parties involved in the project, will be held liable for any illegal use of this program.
