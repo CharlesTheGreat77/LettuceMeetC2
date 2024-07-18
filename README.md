@@ -15,9 +15,9 @@ LettuceMeet is a trusted websites used by countless universities, jobs, and othe
 
 ```#Upload [filepath]``` : Upload file **from** victim machine to dropbox.
 
-```#Download [url]``` : Download file from a url. *saves file to name of file in the url*
+```#Download [url]``` : Download file from a url. (*saves file to name of file in the url*)
 
-```#Auto``` : Puts executable to startup.
+```#Auto``` : Puts this RAT to startup.
 
 **Everything else is ran in powershell!**
 
