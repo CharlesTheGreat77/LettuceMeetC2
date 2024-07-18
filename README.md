@@ -22,10 +22,8 @@ LettuceMeet is a trusted websites used by countless universities, jobs, and othe
 ## Send Commands
 [Send-Commands](https://github.com/user-attachments/assets/f24c069b-6ff6-4bbf-8f23-ce58ef428579)
 
-
-
-
-
+## Predefined Commands
+[Default-Commands](https://github.com/user-attachments/assets/3043d26f-d339-475a-9022-5b9381acf9e0)
 
 
 # Setup
