@@ -9,7 +9,7 @@ import (
 )
 
 var (
-	Path  = ""                                                                                                                                              // lettuceMeet path segment
+	Path  = "" // lettuceMeet path segment
 	Whom  = "" // Dropbox token
 	Where = "/files.txt"                                                                                                                                         // where large output is uploaded
 )
