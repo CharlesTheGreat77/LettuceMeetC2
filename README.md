@@ -100,3 +100,7 @@ Due to the 255 char limit in the name value when inputting a "schedule", output 
 
 ## Disclaimer 🚩
 This program should only be used on environments that you own or have explicit permission to do so. Neither the author, nor other parties involved in the project, will be held liable for any illegal use of this program.
+
+# Coffee ☕️
+If you enjoy this project or my other projects, I wouldn't hurt to grab me a coffee! 🙏
+https://buymeacoffee.com/doobthegoober
