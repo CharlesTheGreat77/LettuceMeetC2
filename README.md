@@ -35,7 +35,7 @@ LettuceMeet is a trusted websites used by countless universities, jobs, and othe
 ```
 git clone https://github.com/CharlesTheGreat77/LettuceMeetC2
 cd LettuceMeetC2
-git mod init LettuceMeet
+go mod init LettuceMeet
 go mod tidy
 ```
 
