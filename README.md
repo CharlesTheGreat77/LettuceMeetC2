@@ -11,7 +11,7 @@ This is a "beta" version of the project, so I don't advice using such for Red Te
 LettuceMeet is a trusted websites used by countless universities, jobs, and other production/business environments. This allows traffic between the attacker and victim machine to be less suspiscious than to connect back to a standard C2 or other suspicious endpoints for command & control or exfiltration.
 
 # Usage 🔫
-```#ID [path segment]``` : Change LettuceMeet C2 on the fly with another lettucemeet "meeting".
+```#ID [path segment]``` : Change LettuceMeet C2 on the fly with another lettucemeet "meeting". (**I need to fix this**)
 
 ```#Upload [filepath]``` : Upload file **from** victim machine to dropbox.
 
